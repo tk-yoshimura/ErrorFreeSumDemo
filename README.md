@@ -1,7 +1,7 @@
-# KahanDemo
- kahan summation c++ demo
+# ErrorFreeSumDemo
+ error-free summation c++ demo
 
-## Kahan Add
+## Add
 ```cpp
 // (hi, lo) += val
 void floatfloat_add(float& hi, float& lo, float val) {
@@ -11,7 +11,7 @@ void floatfloat_add(float& hi, float& lo, float val) {
 }
 ```
 
-## Kahan Sub
+## Sub
 ```cpp
 // (hi, lo) -= val
 void floatfloat_sub(float& hi, float& lo, float val) {
@@ -21,7 +21,7 @@ void floatfloat_sub(float& hi, float& lo, float val) {
 }
 ```
 
-## Kahan Fma
+## Fma
 ```cpp
 // (hi, lo) += val_x * val_y
 void floatfloat_fma(float& hi, float& lo, float val_x, float val_y) {
@@ -31,7 +31,7 @@ void floatfloat_fma(float& hi, float& lo, float val_x, float val_y) {
 }
 ```
 
-## Kahan Fms
+## Fms
 ```cpp
 // (hi, lo) -= val_x * val_y
 void floatfloat_fms(float& hi, float& lo, float val_x, float val_y) {
