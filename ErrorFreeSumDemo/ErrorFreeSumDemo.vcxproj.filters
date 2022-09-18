@@ -18,12 +18,12 @@
     <ClCompile Include="_main.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="kahan_sum_ss.cpp">
+    <ClCompile Include="errfree_sum_ss.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="kahan_sum.h">
+    <ClInclude Include="errfree_sum.h">
       <Filter>Header</Filter>
     </ClInclude>
   </ItemGroup>

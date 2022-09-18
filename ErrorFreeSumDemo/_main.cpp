@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <random>
 
-#include "kahan_sum.h"
+#include "errfree_sum.h"
 
 int main() {
     const int N = 65536, seed = 12345678;

@@ -1,4 +1,4 @@
-#include "kahan_sum.h"
+#include "errfree_sum.h"
 
 #include <math.h>
 
